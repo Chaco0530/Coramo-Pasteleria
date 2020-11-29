@@ -14,7 +14,7 @@
 
 body {
   font-family: 'open sans';
-  background: #f2f2f2;
+  background: #130701;
 }
 
 img{
@@ -178,6 +178,9 @@ nav .enlaces a:hover{
   color: var(--color1);
   margin-bottom: var(--espacios);
 }
+.contenedor h4{
+  color: #fff
+}
 
 .contenedor p{
   font-size: var(--subtitulos);
@@ -264,7 +267,7 @@ nav .enlaces a:hover{
 
 .cont-work{
   width: 31%;
-  box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
+  box-shadow: 0 0 6px 0 rgb(255, 255, 255);
   height:300px;
   overflow: hidden;
   margin-bottom: var(--espacios-contenido);
