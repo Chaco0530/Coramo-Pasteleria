@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Formulario de pedidos</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Style.css">
+    </head>
+    <link rel="icon" href="img/Imagen.ico">
+<body class="hidden">
+    <div class="centrado" id="onload"></div>
+    <body>
+        <form action="enviar.php" method="post">
+            <h2>Contacto</h2>
+            <input type="text" name="Nombre" placeholder="Nombre"required>
+            <input type="text" name="Correo" placeholder="Correo"required>
+            <input type="text" name="Telefono" placeholder="Telefono"required>
+            <textarea name="Mensaje" placeholder="Su pedido"required></textarea>
+            <input type="submit" value="Enviar" id="boton">
+        </form>
+    </body>
+    </html>
