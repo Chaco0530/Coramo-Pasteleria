@@ -1,6 +1,6 @@
 body{
     background: url(img/fondo.jpg);
-    background-size: 100vw 100vh;
+    background-size: 100vw ;
     background-attachment: fixed;
     margin: 0;
     font-family: monospace;
