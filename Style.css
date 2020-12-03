@@ -14,7 +14,8 @@
 body{
     background: url(img/fondo.jpg);
     background-attachment: fixed;
-    margin: 0;
+    background-size: 100vw ;
+    margin: 0%;
     font-family: monospace;
 }
 form{
