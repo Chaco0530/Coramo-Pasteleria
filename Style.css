@@ -90,4 +90,7 @@ H1 {
     color:rgb(0, 0, 0);
     font-size:60px;
 }
-
+@media screen and (max-width: 500px){
+    :root{
+        --espacios-contenido: 25px;
+      }
