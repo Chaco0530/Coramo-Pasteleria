@@ -6,17 +6,19 @@
     <link rel="stylesheet" href="Style.css">
     </head>
     <link rel="icon" href="img/Imagen.ico">
-<body class="hidden">
-    <div class="centrado" id="onload"></div>
     <body>
-        <form action="enviar.php" method="POST">
-            <h2>Cotización</h2>
-            <input type="text" name="nombre" placeholder="Nombre"required>
-            <input type="text" name="correo" placeholder="Correo"required>
-            <input type="text" name="telefono" placeholder="Teléfono"required>
-            <textarea name="mensaje" placeholder="Que desea cotizar?"required></textarea>
-            
-            <button type="submit" class="btn-primary">ENVIAR</button> 
+        <form action="" class="formulario">
+            <h1 class="formulario__titulo">Contáctenos</h1>
+            <input type="text" class="formulario__input">
+            <label for=""class="formulario__label">Nombre</label>
+            <input type="text" class="formulario__input">
+            <label for=""class="formulario__label">Correo</label>
+            <input type="text" class="formulario__input"> 
+            <label for=""class="formulario__label">Teléfono</label>
+            <input type="text" class="formulario__input">
+            <label for=""class="formulario__label">Mensaje</label>
+            <input type="submit" class="formulario__submit">
         </form>
+        <script src="form.js"></script>
     </body>
     </html>
