@@ -5,6 +5,17 @@
     padding: 0;
 }
 #main { width:960px; margin:0 auto; }
+@media screen and (max-width: 400px) {
+    #content {display:block; float:none; }
+   }
+   @media screen and (max-width: 700px){}
+   @media screen and (max-width: 400px) {
+    #main {position:relative; width:100%; }
+    #content{margin-top:80px; width:100%; float:none;}
+    #sidebar{height:80px; position:absolute; top:0; width:100%; float:none; }
+  }
+
+   
 body{
     background-image: url(img/Navidad1.jpeg); 
 }
