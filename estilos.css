@@ -92,7 +92,7 @@ img{
 
 /* Header */
 header{
-  width: 100%;
+  width: 150%;
   height:800px;
   background: url(img/fondo.jpg);
   background-size: 100vw 100vh;
@@ -420,7 +420,7 @@ footer p{
 .formulario__input, .formulario__label, .formulario__submit{
 display: block;
 width: 100%;
-font-size: 1.3em;
+font-size: 1em;
 }
 .formulario__input{
   padding: 20px;
