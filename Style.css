@@ -88,7 +88,7 @@ outline: 1px solid rgba(0,0,0,0.7);
 H1 { 
     text-align: center;
     color:rgb(0, 0, 0);
-    font-size:60px;
+    font-size:40px;
 }
 @media screen and (max-width: 500px){
     :root{
