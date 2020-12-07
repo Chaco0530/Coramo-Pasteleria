@@ -456,3 +456,18 @@ outline: 1px solid rgba(230, 222, 222, 0.7);
 .fijar {
     margin-top: -100vh;
 }
+
+.volver{
+  
+    color:rgb(5, 5, 5);
+    padding: 2vh 1vh;
+    cursor: pointer;
+    border: none;
+    padding: 5vh;
+
+    
+    max-width: 50vh;
+    margin:auto;
+      
+  
+}
