@@ -93,7 +93,7 @@ img{
 /* Header */
 header{
   width: 100%;
-  height:700px;
+  height:100vh;
   background: url(img/fondo.jpg);
   background-size: 100vw 100vh;
   background-attachment: fixed;
@@ -410,15 +410,17 @@ footer p{
     margin-top: 8vh;
     padding: 5vh;
     box-shadow: 0 0 20vh  1vh  rgb(15, 15, 15);
-    position: relative;
+    position: auto;
 }
 .formulario__titulo{
+  width: 40vh;
+  font-size: 5vh;
     text-align: center;
     margin-top:-5vh;
     color:rgb(5, 5, 5)
 }
 .formulario__input, .formulario__label {
-display: block;
+display: auto;
 width: 40vh;
 font-size: 2vh;
 }
@@ -428,7 +430,7 @@ font-size: 2vh;
 .formulario__input{
     padding: 20px;
     border: 1px solid rgb(14, 13, 13);
-    margin-bottom: 5vh;
+    margin-bottom: 3vh;
     background: rgba(8, 8, 8, 0.3);
 }
 .formulario__input:focus{
@@ -440,7 +442,7 @@ outline: 1px solid rgba(230, 222, 222, 0.7);
 }
 .formulario__label{
     padding-left: 5vh;
-    position: absolute;
+    position: auto;
     margin-top:-5vh; 
     z-index: -10px;
     color: rgb(24, 23, 23);
@@ -453,10 +455,6 @@ outline: 1px solid rgba(230, 222, 222, 0.7);
     cursor: pointer;
     border: none;
 }
-.fijar {
-    margin-top: -100vh;
-}
-
 .volver{
   
     color:rgb(5, 5, 5);
