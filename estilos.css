@@ -404,10 +404,10 @@ footer p{
 }
 .formulario{
   background:rgba(230, 225, 225, 0.5);
-    width: 100vh;
-    max-width: 100vh;
-    margin:55vh;
-    margin-top: 10vh;
+    width: 80vh;
+    max-width: 80vh;
+    margin:auto;
+    margin-top: 8vh;
     padding: 5vh;
     box-shadow: 0 0 20vh  1vh  rgb(15, 15, 15);
     position: relative;
@@ -419,7 +419,7 @@ footer p{
 }
 .formulario__input, .formulario__label, .formulario__submit{
 display: block;
-width: 90vh;
+width: 70vh;
 font-size: 1.3em;
 }
 .formulario__input{
